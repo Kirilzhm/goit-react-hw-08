@@ -1,0 +1,21 @@
+
+.UserMenuBox{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+}
+
+.UserMenuText{
+    color: #fff;
+    font-size: larger;
+
+}
+
+.UserMenuBtn{
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    height: 55px;
+}

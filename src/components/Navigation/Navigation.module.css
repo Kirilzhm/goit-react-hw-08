@@ -1,0 +1,11 @@
+
+.navigationBox{
+    display: flex;
+    gap: 200px;
+    margin-left: 50px;
+}
+
+.navigationHLink{
+    color: #fff;
+    font-size: large;
+}

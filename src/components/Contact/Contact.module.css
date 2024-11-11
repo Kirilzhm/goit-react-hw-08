@@ -1,0 +1,23 @@
+
+.contactBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactBtnD{
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contactBtnR{
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
