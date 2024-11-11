@@ -29,13 +29,13 @@ const ContactForm = () => {
       <Form className={styles.formBox}>
         <div className={styles.formSmallBox}>
         <div className={styles.formFieldBox}>
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name" className={styles.formFieldLabel}>Name</label>
         <Field type="text" name="name" className={styles.formField} />
         <ErrorMessage name="name" component="div" />
         </div>
 
         <div className={styles.formFieldBox}>
-        <label htmlFor="number">Number</label>
+        <label htmlFor="number" className={styles.formFieldLabel}>Number</label>
         <Field type="tel" name="number" className={styles.formField} />
         <ErrorMessage name="number" component="div" />
         </div>

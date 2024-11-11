@@ -18,6 +18,7 @@
     padding: 10px;
     width: 300px;
     height: 30px;
+    color: #fff;
 }
 
 .formFieldBox{
@@ -31,4 +32,9 @@
     border: 1px solid #fff;
     background-color: rgba(0, 0, 0, 0.3);
     height: 50px;
+}
+
+.formFieldLabel{
+    color: #fff;
+    font-size: large;
 }
