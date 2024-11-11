@@ -6,6 +6,7 @@ import PrivateRoute from './PrivateRoute';
 import { selectIsRefreshing } from './redux/auth/selectors';
 import { refreshUser } from './redux/auth/operations';
 import RestrictedRoute from './RestrictedRoute';
+import { Toaster } from 'react-hot-toast';
 
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 const RegisterPage = lazy(() => import('./pages/RegisterPage/RegisterPage'));
@@ -44,6 +45,17 @@ const App = () => {
           }/>
         </Routes>
       </Layout>
+      <Toaster 
+            position="top-center"
+            reverseOrder={false}
+            toastOptions={{
+              style: {
+                fontSize: '18px',
+                padding: '16px',
+                maxWidth: '500px',
+              }
+            }}
+          />
     </div>
   )
   )

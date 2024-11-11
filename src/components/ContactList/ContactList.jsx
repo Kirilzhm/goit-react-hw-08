@@ -8,13 +8,14 @@ const ContactList = () => {
   const contacts = useSelector(selectAllContacts);
   const filter = useSelector(selectNameFilter).toLowerCase();
 
-  const felteredContacts = contacts.filter(contact => 
-    contact.name.toLowerCase().includes(filter)
+  const filteredContacts = contacts.filter(contact => 
+    contact.name.toLowerCase().includes(filter) ||
+    contact.number.includes(filter)
   );
 
   return (
     <ul className={styles.contactList}>
-      {felteredContacts.map((contact) => (
+      {filteredContacts.map((contact) => (
         <li key={contact.id} className={styles.contactItem}>
           <Contact contact={contact} />
         </li>
