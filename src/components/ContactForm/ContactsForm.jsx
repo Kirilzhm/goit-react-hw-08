@@ -36,7 +36,7 @@ const ContactForm = () => {
 
         <div className={styles.formFieldBox}>
         <label htmlFor="number">Number</label>
-        <Field type="phone" name="number" className={styles.formField} />
+        <Field type="tel" name="number" className={styles.formField} />
         <ErrorMessage name="number" component="div" />
         </div>
         </div>
